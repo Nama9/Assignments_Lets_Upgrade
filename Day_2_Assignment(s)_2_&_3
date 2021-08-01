@@ -5,3 +5,19 @@ for item in li:       '''For every occurence
   if(item== 246):        246 is removed 
     li.remove(246)        from list'''
 print(li)
+
+#Assignment 3: Check whether the string is pangram
+s = input('Enter the string: ').lower()
+f = [0]*26
+print(f)
+for i in s:
+  if i.isalpha():
+    f[ord(i) -97] +=1
+
+print(f)
+for i in f:
+  if i == 0:
+    print('Not a PANGRAM')
+    break
+else:
+  print('PANGRAM!!!!')
