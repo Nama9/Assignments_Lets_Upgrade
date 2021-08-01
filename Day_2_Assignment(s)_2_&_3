@@ -1,0 +1,7 @@
+#Assignment 2: Remove all occurences of an element from a list
+li = [1, 246, 3, 246, 5, 246, 7]
+print(li.count(246))  #No. of occurences of 246 i.e. 3
+for item in li:       '''For every occurence 
+  if(item== 246):        246 is removed 
+    li.remove(246)        from list'''
+print(li)
