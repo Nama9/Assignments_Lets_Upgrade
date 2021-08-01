@@ -1,0 +1,7 @@
+#Assignment1
+#Assignment 1: Take input for a list and sort the list in descending order.
+x = [int(i) for i in input('Enter the values: ').split()]
+x.sort()      #List sorted in ascending order
+x.reverse()   #Above sorted list is rearranged in reverse(descending) order
+print(type(x))
+print(x)
