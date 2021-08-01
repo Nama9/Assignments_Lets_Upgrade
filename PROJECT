@@ -1,0 +1,4 @@
+#Final PROJECT: TEMPERATURE CONVERSION
+celsius_scale = float(input("°C -> "))
+fahrenheit_scale=(celsius_scale*9/5)+32
+print("°F ->",fahrenheit_scale)
